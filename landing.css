@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTC55F.ttf'),
+}
+@font-face {
+    font-family: 'Open  Sans';
+    src: url('OpenSans-Regular.ttf'),
+}
+.pt-sans{
+    font-family: 'Open  Sans';
+}
+.open-font{
+    font-family: 'Open  Sans';
+}
+.btn{
+    font-family: "Open" , Sans !important;
+}
+.img-card{
+    background-image: url('landingMain.png');
+    height:430px;
+    background-size: cover;
+}
+.fs-30{
+    font-size: 70px;
+}
+.radius-18{
+    border-radius: 18px !important;
+}
+
+.line-height-4{
+    line-height: 30px;
+}
+.border-1{
+    border: solid #3f8bfe 1px;
+}
+.bg-grey{
+    background:#e6f7f6 !important ;
+}
+.radius-30{
+    border-radius: 30px !important;
+}
+.text-grey{
+    color: #01447D;
+}
+.fs-20{
+    font-size: 20px !important;
+}
+.fs-15{
+    font-size: 15.5px;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
