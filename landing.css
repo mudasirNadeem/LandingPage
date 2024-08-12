@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'PT Sans';
-    src: url('PTC55F.ttf'),
-}
-@font-face {
     font-family: 'Open  Sans';
     src: url('OpenSans-Regular.ttf'),
 }
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTC55F.ttf'),
+}
+
 .pt-sans{
     font-family: 'Open  Sans';
 }
-.open-font{
-    font-family: 'Open  Sans';
-}
+
 .btn{
-    font-family: "Open" , Sans !important;
+    font-family: 'Open  Sans';
 }
 .img-card{
     background-image: url('landingMain.png');
@@ -50,4 +50,14 @@
 }
 .text-capitalize{
     text-transform: capitalize;
+}
+@media screen  and (max-width:767px){
+    .img-card{
+        background-image: url('landingMain.png');
+        height:100%;
+        background-size: cover;
+    }
+}
+.h-36{
+    height: 36px;
 }
