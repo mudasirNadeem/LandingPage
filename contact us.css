@@ -1,0 +1,129 @@
+
+
+@font-face {
+    font-family: 'Open  Sans';
+    src: url('OpenSans-Regular.ttf'),
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('PTC55F.ttf'),
+}
+
+.pt-sans{
+    font-family: 'Open  Sans';
+}
+.Open{
+    font-family: 'Open  Sans';
+}
+
+.btn{
+    font-family: 'Open  Sans';
+}
+.container{
+    height: calc(100vh - 80px) !important;
+    max-width: 100% !important;
+}
+.contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left h2 {
+    margin-bottom: 20px;
+}
+
+.contact-left p {
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    margin-top: 40px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.contact-right {
+    background-color: white;
+    padding: 30px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.contact-right h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #00B4DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.bg-image{
+    background-image: url('contactUS.png');
+    background-size: cover;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fw-600{
+    font-weight: 600;
+}
+input[type="text"]{
+    height: 56px;
+    border-radius: 15px;
+    background-color: #e6f0ff !important;
+}
+textarea{
+    border-radius: 15px !important;
+    background-color: #e6f0ff !important;
+}
+#not-robot{
+width: 29px;
+height: 29px;
+}
+.form-check-label{
+    font-size: 21px;
+}
