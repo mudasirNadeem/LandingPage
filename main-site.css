@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background-color: #f8f9fa;
+}
+
+#about, #products, #solutions, #contact {
+    background-color: #ffffff;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
