@@ -1,23 +1,338 @@
-body {
-    font-family: Arial, sans-serif;
+.bg-image{
+    background-image: url('https://www.rrsteksecurity.com/frontend/images/bg-line.png');
+    background-size: cover;
+}
+.header-h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 68px;
+}
+.btn-height{
+    width: 150px;
+    height: 55px;
+    border-radius: 40px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    border: 0;
+    transition: 1s ease-in-out !important;
+}
+.hover-remove-bg:hover{
+    background: transparent !important;
+    color:#0c2ee5 !important;
+    transition: 1s  ease-in-out !important;
+    border: solid;
+}
+.bg-gredient{
+    background: linear-gradient(to right, #0c2ee5, #0598e8);
 }
 
-section {
-    padding: 60px 0;
+.text-gredient{
+    color: #0c2ee5 !important;
+}
+.hover-add-bg:hover{
+    background: linear-gradient(to right, #0c2ee5, #0598e8) !important;
+}
+.video-btn{
+    width: 110px;
 }
 
-#home {
-    background-color: #f8f9fa;
+.gradient-bg {
+    background: linear-gradient(to right, #5365f0, #4bb6e7);
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+/* Button styles */
+.custom-btn {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.custom-btn i {
+    color: white;
+}
+/* Adjust the alignment */
+.d-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    width: 100%;
+}
+.shadow-none{
+    box-shadow: none;
+}
+.hover-border-0:hover{
+    border-color: white !important;
+}
+.w-168{
+    width: 168px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 
-#about, #products, #solutions, #contact {
-    background-color: #ffffff;
+.gradient-border {
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, #5365f0, #4bb6e7) 1;
 }
 
-h1, h2 {
-    margin-bottom: 20px;
-}
-
-p {
+/* Section title styles */
+.section-title {
+    font-size: 1.2rem;
+    color: #5365f0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+/* Main title styles */
+.main-title {
+    font-size: 44px;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+
+/* Logo container styles */
+.brand-logos {
+    justify-content: space-between;
+}
+
+/* Brand logo styles */
+.brand-logos img {
+    max-width: 150px;
+    height: auto;
+    margin: 0 15px;
+}
+.fw-500{
+    font-weight: 500;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.accordion-item>.accordion-header .accordion-button{
+    font-size: 20px !important;
+    font-family: sans-serif;
+}
+.accordion-button:not(.collapsed){
+    background: -webkit-linear-gradient(left, rgba(87, 101, 236, 1) 1%, rgba(84, 139, 239, 1) 52%, rgba(81, 188, 240, 1) 100%);
+    color: white !important;
+}
+
+.accordion-item:first-of-type>.accordion-header .accordion-button{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+div#collapseOne , div#collapseTwo , div#collapseThree , div#collapseFour , div#collapseFive , div#collapseSix{
+    background: -webkit-linear-gradient(left, rgba(87, 101, 236, 1) 1%, rgba(84, 139, 239, 1) 52%, rgba(81, 188, 240, 1) 100%);
+}
+
+.accordion-collapse{
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.accordion-item{
+    border: none !important;
+}
+.sana-sarf{
+    font-family: 'Poppins', sans-serif;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+
+.accordion-item .accordion-header .accordion-button{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+
+.custom-card {
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.custom-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+}
+.custom-card-body {
+    padding: 15px;
+}
+.custom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.custom-info span {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+.custom-info i {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-right: 5px;
+}
+.img-custom{
+    width: 24px !important;
+    height: 24px !important;
+}
+.subscribe-area .holder {
+    background: #75a4ff;
+    border-radius: 60px;
+    padding: 0 90px 86px;
+}
+.input-group>.form-control, .input-group>.form-floating, .input-group>.form-select{
+    padding: 25px !important;
+    font-family: sans-serif !important;
+    border-radius: 12px;
+}
+.gridant-color-btn{
+    width: 100%;
+    padding: 0;
+    color: #fff !important;
+    background: linear-gradient(116.47deg, #0f00e2 -5.53%, #00eded 126.82%);
+    border-radius: 40px;
+    height: 52px;
+    border: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.booking-area {
+    padding: 120px 0 127px;
+    background: linear-gradient(116.47deg, rgba(15, 0, 226, 0.7) -5.53%, rgba(0, 237, 237, 0.7) 126.82%);
+}
+.fs-24{
+    font-size: 24px;
+}
+.bg-grey{
+    background-color: #f4f4f4 !important;
+}
+.fw-400{
+    font-weight: 400;
+}
+
+.card-wrapper {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card-heading {
+    font-size: 36px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+    z-index: 10;
+    line-height: 68px;
+}
+
+.card-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+}
+
+
+.hidden-text {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 150px;
+    transition: 1s;
+}
+
+.card-wrapper:hover .hidden-text {
+    opacity: 1;
+    position: absolute;
+    top: 120px;
+    transition: 1s;
+}
+.card-wrapper  a{
+    left: -10px !important;  
+    position: absolute;
+    margin-top: 180px;
+    opacity: 0;
+    transition: 1s;
+    top: 130px !important;
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.card-wrapper:hover  a{
+    left: 50px !important;  
+    position: absolute;
+    top: 130px !important;
+    transition: 1s;
+    opacity: 1;
+}
+
+
+.card-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.text-hover-white:hover {
+    color: #ffffff !important;
+}
+
+.radius-20{
+    border-radius: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+
+.card-footer .hidden-btn {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 100px !important;
+    transition: 1s;
+
+}
+.card-wrapper:hover  .card-footer .hidden-btn{
+        opacity: 1;
+        position: absolute;
+        transition: 1s;
+}
+
+@media screen and  (max-width:767px) {
+    .subscribe-area .holder {
+        padding: 0 0px 86px;
+    }
+    .sm-w-100{
+        width: 100% !important;
+    }
 }
