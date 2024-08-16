@@ -338,4 +338,30 @@ div#collapseOne , div#collapseTwo , div#collapseThree , div#collapseFour , div#c
     .sm-w-100{
         width: 100% !important;
     }
+    .px-xsm-0{
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .card-wrapper  a{
+        left: -10px !important;  
+        position: absolute;
+        margin-top: 180px;
+        opacity: 0;
+        transition: 1s;
+        top: 170px !important;
+        width: 60px;
+        height: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    .card-wrapper:hover  a{
+        left: 50px !important;  
+        position: absolute;
+        top: 170px !important;
+        transition: 1s;
+        opacity: 1;
+    }
 }
