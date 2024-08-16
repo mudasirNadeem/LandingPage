@@ -327,6 +327,9 @@ div#collapseOne , div#collapseTwo , div#collapseThree , div#collapseFour , div#c
         position: absolute;
         transition: 1s;
 }
+.btn{
+    box-shadow: none !important;
+}
 
 @media screen and  (max-width:767px) {
     .subscribe-area .holder {
